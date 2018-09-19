@@ -26,6 +26,7 @@ to run this project :-
   
 ## Notes
   to change the places shown in this project:-
+  
     1. go ahead to `js` folder
     2. open `project.js` in your favourite text editor
     3. change the place type in line `35` according to `https://developers.google.com/places/supported_types` by using them own words only
