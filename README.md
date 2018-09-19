@@ -8,7 +8,7 @@ and he can use a search input to search the place he want with name or address.
 this project uses google APIs and foursquqre API.
 
 
-##run 
+## run 
 to run this project :-
   1. download or clone this project.
   2. open `maps.html` .
@@ -24,7 +24,7 @@ to run this project :-
   6. you can run `vagrant ssh` to log in to your newly installed Linux VM
   
   
-##Notes
+## Notes
   to change the places shown in this project:-
     1. go ahead to `js` folder
     2. open `project.js` in your favourite text editor
