@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MyMaps</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/project.css">
+
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <h2 class="define">Neighborhood Map</h2>
+      <h5 class="define">using google & foursquare APIs</h5>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <input class="search" data-bind="textInput: searchOption, valueUpdate: 'afterkeydown'" placeholder="Search ......">
+    </div>
+
+    <span class="click" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <div id="map"></div>
+
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry,drawing&key=AIzaSyB-rnPXRFG-fub_yhdiVOZMGrYVhVSCIDE&v=3&callback=myApp"></script>
+    <script src="js/project.js" charset="utf-8"></script>
+    <script src="knockout-3.4.2.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
