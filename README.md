@@ -1,11 +1,11 @@
 # Neighborhood_Map
 
-this project is a single webpage show the user several places with markers,
-by clicking on any marker an infowindow is populated and shows the name and the address of this place,
+this project is a single webpage shows the user several places with markers
+by clicking on any marker an infowindow is populated providing the name and the address of this place,
 also the user finds these places in the side bar to choose any place he want,
 and he can use a search input to search the place he want with name or address.
 
-this project uses google APIs and foursquqre API.
+this project uses google APIs and foursquare API.
 
 
 ## run 
